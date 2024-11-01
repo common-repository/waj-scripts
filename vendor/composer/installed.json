@@ -1,0 +1,482 @@
+[
+    {
+        "name": "psr/http-message",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-message.git",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-08-06T14:39:51+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for HTTP messages",
+        "homepage": "https://github.com/php-fig/http-message",
+        "keywords": [
+            "http",
+            "http-message",
+            "psr",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "spatie/macroable",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/spatie/macroable.git",
+            "reference": "74b0d189ce75142f1706aad834d5a428dfc7c3c3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/spatie/macroable/zipball/74b0d189ce75142f1706aad834d5a428dfc7c3c3",
+            "reference": "74b0d189ce75142f1706aad834d5a428dfc7c3c3",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6.3"
+        },
+        "time": "2017-09-18T09:51:20+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Spatie\\Macroable\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Freek Van der Herten",
+                "email": "freek@spatie.be",
+                "homepage": "https://spatie.be",
+                "role": "Developer"
+            }
+        ],
+        "description": "A trait to dynamically add methods to a class",
+        "homepage": "https://github.com/spatie/macroable",
+        "keywords": [
+            "macroable",
+            "spatie"
+        ]
+    },
+    {
+        "name": "spatie/url",
+        "version": "1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/spatie/url.git",
+            "reference": "d57c19baf1586d335f30c126681a9487da01809b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/spatie/url/zipball/d57c19baf1586d335f30c126681a9487da01809b",
+            "reference": "d57c19baf1586d335f30c126681a9487da01809b",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.0",
+            "psr/http-message": "^1.0",
+            "spatie/macroable": "^1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6.4"
+        },
+        "time": "2018-01-02T20:50:05+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Spatie\\Url\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Sebastian De Deyne",
+                "email": "sebastian@spatie.be",
+                "homepage": "https://spatie.be",
+                "role": "Developer"
+            }
+        ],
+        "description": "Parse, build and manipulate URL's",
+        "homepage": "https://github.com/spatie/url",
+        "keywords": [
+            "spatie",
+            "url"
+        ]
+    },
+    {
+        "name": "waughj/directory",
+        "version": "0.3.0",
+        "version_normalized": "0.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/waughjai/directory.git",
+            "reference": "ee52acc01d4660a383337b2bf761af2bd153a084"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/waughjai/directory/zipball/ee52acc01d4660a383337b2bf761af2bd153a084",
+            "reference": "ee52acc01d4660a383337b2bf761af2bd153a084",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0",
+            "waughj/verified-arguments-same-type": "*"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*"
+        },
+        "time": "2019-04-18T20:50:42+00:00",
+        "type": "libraryt",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WaughJ\\Directory\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Jaimeson Waugh",
+                "email": "waughjai@gmail.com"
+            }
+        ],
+        "description": "Simple class for encapsulating file directory object.",
+        "keywords": [
+            "directory",
+            "file"
+        ]
+    },
+    {
+        "name": "waughj/file-loader",
+        "version": "0.4.2",
+        "version_normalized": "0.4.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/waughjai/file-loader.git",
+            "reference": "5ed773b2e739a6e07bbabc3d85f0f86015861b5f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/waughjai/file-loader/zipball/5ed773b2e739a6e07bbabc3d85f0f86015861b5f",
+            "reference": "5ed773b2e739a6e07bbabc3d85f0f86015861b5f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0",
+            "spatie/url": "*",
+            "waughj/directory": "*",
+            "waughj/test-hash-item": "*",
+            "waughj/verified-arguments": "*"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.*"
+        },
+        "time": "2018-12-12T20:32:53+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WaughJ\\FileLoader\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Jaimeson Waugh",
+                "email": "waughjai@gmail.com"
+            }
+        ],
+        "description": "Object for easily generating image sources with autoversioning for handling cache corruption.",
+        "keywords": [
+            "file",
+            "loader"
+        ]
+    },
+    {
+        "name": "waughj/test-hash-item",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/waughjai/test-hash-item.git",
+            "reference": "5657dc1ac52e629acdd6ce57936acafc60b00394"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/waughjai/test-hash-item/zipball/5657dc1ac52e629acdd6ce57936acafc60b00394",
+            "reference": "5657dc1ac52e629acdd6ce57936acafc60b00394",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.*"
+        },
+        "time": "2018-11-29T20:46:20+00:00",
+        "type": "project",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/TestHashItem.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Jaimeson Waugh",
+                "email": "waughjai@gmail.com"
+            }
+        ],
+        "description": "A collection o' helper functions for testing properties o' a hash item",
+        "keywords": [
+            "hash",
+            "tests"
+        ]
+    },
+    {
+        "name": "waughj/verified-arguments",
+        "version": "0.6.0",
+        "version_normalized": "0.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/waughjai/verified-arguments.git",
+            "reference": "1a1c9158d6c97f62eea1c51e8ee6039408f2a8d8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/waughjai/verified-arguments/zipball/1a1c9158d6c97f62eea1c51e8ee6039408f2a8d8",
+            "reference": "1a1c9158d6c97f62eea1c51e8ee6039408f2a8d8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.*"
+        },
+        "time": "2019-01-10T23:55:47+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WaughJ\\VerifiedArguments\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Jaimeson Waugh",
+                "email": "waughjai@gmail.com"
+            }
+        ],
+        "description": "Safer & simpler way to handle verifying an array o' arguments by existence & type.",
+        "keywords": [
+            "arguments",
+            "array",
+            "safety"
+        ]
+    },
+    {
+        "name": "waughj/verified-arguments-same-type",
+        "version": "0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/waughjai/verified-arguments-same-type.git",
+            "reference": "dcd896138233adceeab3e3cfe48da0bb26d70e19"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/waughjai/verified-arguments-same-type/zipball/dcd896138233adceeab3e3cfe48da0bb26d70e19",
+            "reference": "dcd896138233adceeab3e3cfe48da0bb26d70e19",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0",
+            "waughj/verified-arguments": ">=0.5"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.*"
+        },
+        "time": "2018-10-24T17:57:03+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WaughJ\\VerifiedArgumentsSameType\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Jaimeson Waugh",
+                "email": "waughjai@gmail.com"
+            }
+        ],
+        "description": "List o' verified arguments wherein given arguments must be the same type as defaults.",
+        "keywords": [
+            "arguments",
+            "array",
+            "safety",
+            "type"
+        ]
+    },
+    {
+        "name": "waughj/wp-meta-box",
+        "version": "0.2.0",
+        "version_normalized": "0.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/waughjai/wp-meta-box.git",
+            "reference": "b89440f2a2364f62ffc378b28f57217ea57d2113"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/waughjai/wp-meta-box/zipball/b89440f2a2364f62ffc378b28f57217ea57d2113",
+            "reference": "b89440f2a2364f62ffc378b28f57217ea57d2113",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0",
+            "waughj/test-hash-item": ">=1.0.1"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.*"
+        },
+        "time": "2018-12-20T00:48:03+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WaughJ\\WPMetaBox\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Jaimeson Waugh",
+                "email": "waughjai@gmail.com"
+            }
+        ],
+        "description": "Simple class for easily adding meta boxes for WordPress admin editors.",
+        "keywords": [
+            "meta",
+            "meta box",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "waughj/wp-theme-option",
+        "version": "0.3.0",
+        "version_normalized": "0.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/waughjai/wp-theme-option.git",
+            "reference": "112d170fe6abdf207c9f81f3f3e57ee6e473388c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/waughjai/wp-theme-option/zipball/112d170fe6abdf207c9f81f3f3e57ee6e473388c",
+            "reference": "112d170fe6abdf207c9f81f3f3e57ee6e473388c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0",
+            "waughj/test-hash-item": ">=1.0.1",
+            "waughj/verified-arguments-same-type": "*"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.*"
+        },
+        "time": "2018-12-14T00:46:52+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WaughJ\\WPThemeOption\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Jaimeson Waugh",
+                "email": "waughjai@gmail.com"
+            }
+        ],
+        "description": "Classes for simplifying the creation of theme options, option sections, & option pages.",
+        "keywords": [
+            "generator",
+            "option",
+            "theme",
+            "wordpress"
+        ]
+    }
+]
